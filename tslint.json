@@ -1,4 +1,10 @@
 {
-  "extends": ["tslint:recommended"],
-  "rules": {}
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rules": {
+    "interface-over-type-literal": false,
+    "object-literal-sort-keys": false,
+    "only-arrow-functions": false
+  }
 }
