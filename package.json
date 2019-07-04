@@ -2,7 +2,6 @@
   "name": "saga-orchestration",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
   "scripts": {
     "start": "npx node dist/saga.bundle.js",
     "develop": "concurrently \"npm run watch:build\" \"npm run watch:start\"",
@@ -20,6 +19,7 @@
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-typescript": "^7.3.3",
     "@types/jest": "^24.0.15",
+    "babel-loader": "^8.0.6",
     "concurrently": "^4.1.1",
     "jest": "^24.8.0",
     "nodemon": "^1.19.1",
